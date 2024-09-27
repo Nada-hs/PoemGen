@@ -39,6 +39,7 @@ Install these dependencies using pip:
 ```bash
 pip install transformers gradio torch uvicorn soundfile datasets diffusers
 
+```
 ## Funcations
 
 1. **Poem Generation**:
