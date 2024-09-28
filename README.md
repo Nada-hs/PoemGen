@@ -31,9 +31,7 @@ The models used to generate poems do not always produce fluent or aesthetically 
 - **Image Generation from Arabic**: 
 The models that convert Arabic texts into images are few, and they require a large GPU to function efficiently. Additionally, the translation from Arabic to English may not always capture the full poetic nuance or cultural references, which can negatively impact the accuracy and overall quality of the image generation process.
 
-- **Arabic Text-to-Speech Issues**: The Arabic text-to-speech model struggles to complete sentences and often mispronounces or entirely skips certain words. It does not handle Arabic text as fluently as the English text-to-speech model.
-
-- **Text-to-Speech Truncation**: Both the Arabic and English text-to-speech models sometimes stop before completing the full sentence, leaving the output cut off.
+- **Arabic Text-to-Speech Issues**: The Arabic text-to-speech model struggles to complete sentences and often mispronounces or entirely skips certain words. Sometimes stop before completing the full sentence, leaving the output cut off. It does not handle Arabic text as fluently as the English text-to-speech model.
 
 - **Random Termination in Text Generation**: All text generation models tend to end abruptly and randomly at incomplete points, without concluding the poem naturally. This results in unfinished sentences or thoughts, which diminishes the quality of the generated poems.
 
