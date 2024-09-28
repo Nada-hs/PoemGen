@@ -145,11 +145,12 @@ An image of a tranquil ocean scene, with the sun rising over calm waters, gently
 ### Example 2: Arabic Poem
 #### Input:
 ```json
-Copy code
+
 {
     "dropdown": "Arabic",
     "starter": "الورود تتفتح في الربيع"
 }
+
 ```
 #### Output:
 1. **Generated Poem:**
@@ -170,7 +171,6 @@ Copy code
 Since the image model (CompVis/stable-diffusion-v1-4) only supports English input, the Arabic poem will be translated into English using the Helsinki-NLP/opus-mt-ar-en model:
 
 ```css
-Copy code
 The flowers bloom in spring,
 With colors filling the wide space.
 Their fragrance spreads with the gentle breeze,
